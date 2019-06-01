@@ -50,6 +50,7 @@ class controler extends CI_Controller {
  			$this->session->set_userdata($data_session);
  			$acount=$this->user->getall();
 			return $this->load->view('admin/index');
+			var_dump($cek,$nama);
 			echo "Berhasil login";
 		}else{
 			//echo "Username dan password salah !";
