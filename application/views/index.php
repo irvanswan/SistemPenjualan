@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Komunitas Petani Jamur</title>
+  <title>KPJT-Manut</title>
 
   <!-- Bootstrap core CSS -->
   <link href="<?php echo base_url('assets/vendor/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
@@ -30,7 +30,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Petani Jamur</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">KPJT-Manut</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -50,7 +50,7 @@
             <a class="nav-link js-scroll-trigger" href="#portfolio">Produk</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Peta Lokasi</a>
+            <a class="nav-link js-scroll-trigger" href="#team">Lokasi</a>
           </li>
         </ul>
       </div>
@@ -61,8 +61,9 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Komunitas</div>
-        <div class="intro-heading text-uppercase">Petani Jamur</div>
+        <div class="intro-heading text-uppercase">KPJT-MANUT</div>
+        <div class="intro-lead-in">Kelompok Petani Jamur Tiram</div>
+        <div class="intro-lead-in">Kecamatan Klakah - Kabupaten Lumajang</div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tentang</a>
       </div>
     </div>
@@ -74,7 +75,8 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Tentang Organisasi</h2>
-          <h3 class="section-subheading text-muted">Komunitas Petani Jamur Lumajang.</h3>
+          <h3 class="section-subheading text-muted">Kelompok Petani Jamur Tiram</h3>
+          <h3 class="section-heading text-uppercase">KPJT-Manut</h3>
         </div>
       </div>
       <div class="row text-center">
@@ -85,24 +87,24 @@
             <i class="fas fa-sitemap fa-stack-1x fa-inverse"></i>
           </span>
         </a>
-          <h4 class="service-heading">Pembudidaya</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">Unit Budidaya</h4>
+          <p class="text-muted">Memproduksi baglog yang nantinya akan dibudidayakan hingga menghasilkan jamur tiram yang berkualitas.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-male fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Pengolah</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">Unit Produksi Olahan</h4>
+          <p class="text-muted">Memproduksi berbagai olahan makanan dari bahan dasar jamur tiram.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-shopping-basket fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Sales</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">Unit Pengiriman</h4>
+          <p class="text-muted">Membantu menyediakan jasa pengantaran produk untuk mempermudah pemasaran produk.</p>
         </div>
       </div>
     </div>
@@ -114,12 +116,12 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Struktur Organisasi</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">Kelompok Petani Jamur Tiram</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12 text-center">
-          <img src="<?php echo base_url('assets/img/struktur.jpeg')?>" alt="" width="500">
+          <img src="<?php echo base_url('assets/img/strukturr.jpeg')?>" alt="" width="900">
         </div>
       </div>
     </div>
@@ -212,7 +214,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">PRODUK</h2>
-          <h3 class="section-subheading text-muted">Berikut macam-macam dari olahan jamur:</h3>
+          <h3 class="section-subheading text-muted">Berikut beberapa produk olahan yang diproduksi oleh KPJT-Manut:</h3>
         </div>
       </div>
       <div class="row">
@@ -255,7 +257,7 @@
           </a>
           <div class="portfolio-caption">
             <h4>Abon Jamur Tiram</h4>
-            <p class="text-muted">Abon Jamur Timar adalah</p>
+            <p class="text-muted">Abon Jamur Tiram adalah</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -354,30 +356,27 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Peta Lokasi</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase">Lokasi</h2>
+          <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4">
+      <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/img/team/4.jpg')?>" alt="">
-            <h4>Pembudidaya</h4>
-            <p class="text-muted">Lead Designer</p>
+            <a class="portfolio-link" data-toggle="modal" href="#lokasi1">
+            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/img/team/sekretariat.jpg')?>" alt="">
+            <h4>Sekretariat KPJT-Manut</h4>
+            </a>
+            <p class="text-muted">Ds. Klakah</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
-                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-whatsapp"></i>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="#">
                   <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
             </ul>
@@ -385,13 +384,15 @@
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/img/team/5.jpg')?>" alt="">
-            <h4>Olahan A</h4>
-            <p class="text-muted">Lead Designer</p>
+          <a class="portfolio-link" data-toggle="modal" href="#lokasi2">
+            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/img/team/budidaya.jpg')?>" alt="">
+            <h4>Budidaya Jamur Tiram</h4>
+            </a>
+            <p class="text-muted">Ds. Ranupakis</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
-                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-whatsapp"></i>
                 </a>
               </li>
               <li class="list-inline-item">
@@ -399,39 +400,34 @@
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+          <a class="portfolio-link" data-toggle="modal" href="#lokasi3">
+            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/img/team/olahan.jpg')?>" alt="">
+            <h4>Unit Produksi Olahan</h4>
+            </a>
+            <p class="text-muted">Berbagai macam olahan jamur tiram</p>
+            <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
             </ul>
           </div>
         </div>  
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="<?php echo base_url('assets/img/team/6.jpg')?>" alt="">
-            <h4>Olahan B</h4>
-            <p class="text-muted">Lead Marketer</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#">maps</a>
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
           <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
@@ -712,6 +708,136 @@
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Lokasi 1 -->
+  <div class="modal fade" id="lokasi1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalScrollableTitle">Sekretariat KPJT-Manut</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <section class="page-section" id="services">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <h3 class="section-heading text-uppercase">Lokasi</h3>
+                  <br>
+                </div>
+              </div>
+              <div class="text-justify">
+                <p align="center">Jl. Tambak Boyo RT.22 RW. 10, Desa Klakah, Kecamatan Klakah, Kabupaten Lumajang
+                  <br>email : agussaichu@yahoo.co.id
+                  <br>
+                  <br>#MelangkahBersamaMenggapaiCita
+                  <br>#MembangunMasyarakatKreatifInovatifDanProduktif</p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Lokasi 2 -->
+  <div class="modal fade" id="lokasi2" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalScrollableTitle">Unit Budidaya Jamur Tiram</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <section class="page-section" id="services">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <h3 class="section-heading text-uppercase">Lokasi</h3>
+                  <br>
+                </div>
+              </div>
+              <div class="text-justify">
+                <h5 align="center">Produksi Baglog</h5>
+                <br><p align="center">Jl. Ranupakis RT.?? RW. ??, Desa Ranupakis, Kecamatan Klakah, Kabupaten Lumajang
+                  <br>email : ?????@yahoo.co.id
+                  <br><br>
+                <h5 align="center">Produksi Culture F0-F1-F2</h5>
+                <br><p align="center">Jl. Ranupakis RT.?? RW. ??, Desa Ranupakis, Kecamatan Klakah, Kabupaten Lumajang
+                  <br>email : ?????@yahoo.co.id
+                  <br>
+                  <br>#MelangkahBersamaMenggapaiCita
+                  <br>#MembangunMasyarakatKreatifInovatifDanProduktif</p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Lokasi 3 -->
+  <div class="modal fade" id="lokasi3" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalScrollableTitle">Unit Produksi Olahan Jamur Tiram</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <section class="page-section" id="services">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <h3 class="section-heading text-uppercase">Lokasi</h3>
+                  <br>
+                </div>
+              </div>
+              <div class="text-justify">
+                <h5 align="center">Produksi Crispy Jamur Tiram</h5>
+                <br><p align="center">Jl. Ranupakis RT.?? RW. ??, Desa Ranupakis, Kecamatan Klakah, Kabupaten Lumajang
+                  <br>email : ?????@yahoo.co.id
+                  <br><br>
+                <h5 align="center">Produksi Bakso Jamur Tiram</h5>
+                <br><p align="center">Jl. ???? RT.?? RW. ??, Desa Klakah, Kecamatan Klakah, Kabupaten Lumajang
+                  <br>email : ?????@yahoo.co.id
+                  <br><br>
+                <h5 align="center">Produksi Abon Jamur Tiram</h5>
+                <br><p align="center">Jl. Ranupakis RT.?? RW. ??, Desa Ranupakis, Kecamatan Klakah, Kabupaten Lumajang
+                  <br>email : ?????@yahoo.co.id
+                  <br><br>
+                <h5 align="center">Produksi Nugget Jamur Tiram</h5>
+                <br><p align="center">Jl. ???? RT.?? RW. ??, Desa Mlawang, Kecamatan Klakah, Kabupaten Lumajang
+                  <br>email : ?????@yahoo.co.id
+                  <br><br>
+                <h5 align="center">Produksi Kue Jamur Tiram</h5>
+                <br><p align="center">Jl. ???? RT.?? RW. ??, Desa Mlawang, Kecamatan Klakah, Kabupaten Lumajang
+                  <br>email : ?????@yahoo.co.id
+                  <br>
+                  <br>#MelangkahBersamaMenggapaiCita
+                  <br>#MembangunMasyarakatKreatifInovatifDanProduktif</p>
               </div>
             </div>
           </section>
