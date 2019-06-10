@@ -10,7 +10,7 @@
       <div class="card card-login mx-auto mt-5">
         <div class="card-header">Login</div>
         <div class="card-body">
-          <form action="<?= base_url('controler/loginuser') ?>" method="post">
+          <form action="<?= base_url('Admin/aksi_login') ?>" method="post">
             <div class="form-group">
               <div class="form-label-group">
                 <input type="text" id="username" name="username" class="form-control" placeholder="Username" required="required" autofocus="autofocus">

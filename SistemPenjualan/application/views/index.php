@@ -137,7 +137,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Kegiatan Organisasi</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">kegiatan memasukan bibit jamur ke dalam media jamur yang telah disterilisasi.</h3>
         </div>
       </div>
       <div class="row">
@@ -163,11 +163,11 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>March 2011</h4>
-                  <h4 class="subheading">An Agency is Born</h4>
+                  <h4>2 Juni 2019</h4>
+                  <h4 class="subheading">kegiatan sosial "Berbagi Kasih Bulan Romadhon".</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p class="text-muted"> keluarga besar anggota KPJT MANUT melaksanakan kegiatan sesial "Berbagi Kasih Bulan Romadhon " kpd saudara2 kita. Walau hanya sedikit smoga bisa membuat bahagia semuanya dan smoga Romadhon yang akan datang masih diberi kesempatan untuk berbagi kasih lagi. Aaminn.. </p>
                 </div>
               </div>
             </li>
@@ -177,11 +177,11 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 class="subheading">Transition to Full Service</h4>
+                  <h4>26 April 2019</h4>
+                  <h4 class="subheading">Festival Durian Lumajang 2019.</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p class="text-muted">Selamat datang di Stand KPJT MANUT di arena Festival Durian Lumajang 2019. Silahkan melihat aneka produk olahan Jamur Tiram produksi anggota KPJT MANUT dan konsultasi mengenai budi daya jamur tiram ala KPJT MANUT. </p>
                 </div>
               </div>
             </li>
@@ -191,11 +191,15 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 class="subheading">Phase Two Expansion</h4>
+                  <h4>22 Aprill 2019</h4>
+                  <h4 class="subheading">penilaian Management Pengelolaan Usaha Budi Jamur Tiram</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p class="text-muted">Alhamdulillah.. la haula wala quwata illa billah..
+                  Selesai sdh presentasi / paparan penilaian Management Pengelolaan Usaha Budi Jamur Tiram dan Segala Produk Olahannya di hadapan Bu Ida, Kasie Pembiayaan Dinas Pertanian Propensi Jawa Timur di dampingi Bp. Farid dari Dinas Pertanian Kab. Lumajang.
+                  Smoga Allah Swt memberikan ridho Nya sehingga KPJT MANUT layak menjadi binaan strategis pemberdayaan masyarakat dalam budi daya Jamur Tiram oleh Dinas Pertanian. Aaminn..
+                  Terima kasih atas support dan doanya.
+                  Salam hormat kami.</p>
                 </div>
               </div>
             </li>
