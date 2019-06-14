@@ -1,7 +1,12 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 class user extends CI_Model{
-	function cek_login($table,$where){
-		return $this->db->get_where($table,$where);
+
+	private $table="admin";
+	function cek_login($where){
+		return $this->db->get_where($this->table,$where);
+	}
+	function daftar($data){
+		return $this->db->insert($this->table,$data);
 	}
 }
