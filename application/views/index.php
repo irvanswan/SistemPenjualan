@@ -812,12 +812,7 @@
                 </div>
               </div>
               <div class="text-justify">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Dalam pembudidayaan jamur disini menggunakan baglog yang baik supaya hasil jamur yang kami budidaya menjadi Jamur Tiram yang baik dan mudah diolah sehingga menghasilkan produk seperti Bakso Jamur Tiram, Rolade Jamur Tiram, Abon Jamur Tiram, Lumpia Jamur Tiram, Kerupuk Jamur Tiram, Nugget Jamur Tiram, Sate Jamur Tiram, Kentucky Jamur Tiram, Crispy Jamur Tiram</p>
               </div>
             </div>
         </div>
@@ -879,12 +874,7 @@
                 </div>
               </div>
               <div class="text-justify">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Dalam unit pengiriman sendiri kita menggunakan jasa anggota yang ada didalam organsisasi ini sendiri</p>
               </div>
             </div>
         </div>
