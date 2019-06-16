@@ -12,7 +12,11 @@ class Admin extends CI_Controller {
 
 	public function index()
 	{
+		if($this->session->userdata('status') == "login"){
+			$this->load->view('admin/index');
+		}else{
 		$this->load->view('admin/login');
+	}
 	}
 
 	//--------------------------------------------------------------//
@@ -25,7 +29,7 @@ class Admin extends CI_Controller {
 			'username' => $username,
 			'password' => md5($password)
 			);
-		$cek = $this->user->cek_login("akun",$where)->num_rows();
+		$cek = $this->user->cek_login($where)->num_rows();
 		if($cek > 0){
  
 			$data_session = array(
@@ -40,6 +44,19 @@ class Admin extends CI_Controller {
 		}else{
 			echo "Username dan password salah !";
 		}
+	}
+
+	function logout(){
+		$data_session = array(
+			'nama',
+			'status'
+		);
+		$this->session->unset_userdata($data_session);
+		redirect(base_url("ses"));
+	}
+
+	function form_produk_tani(){
+		$this->load->view('admin/input_makanan');
 	}
 	
 }
