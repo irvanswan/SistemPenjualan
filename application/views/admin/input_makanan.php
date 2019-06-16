@@ -25,31 +25,32 @@
             <li class="breadcrumb-item">
               <a href="#">Dashboard</a>
             </li>
-            <li class="breadcrumb-item active">Input Produk Tani</li>
+            <li class="breadcrumb-item active">Input Makanan</li>
           </ol>
 
           <!-- Area Chart Example-->
           <div class="card mb-3 border-dark " style="width: 30rem;">
             <div class="card-header">
               <i class="fas fa-utensils"></i>
-              Input Produk Tani</div>
+              Input Makanan</div>
             <div class="card-body">
 
 
               <form action="" method="post" enctype="multipart/form-data"><!--multipart/form-data berfungsi supaya file dapat diambil -->
                 <div class="form-group">
-                  <label for="idmakanan">Id Produk</label>
-                  <input type="text" name="id_makanan" class="form-control" id="idmakanan" aria-describedby="makanan" placeholder="Id Produk">
+                  <label for="idmakanan">Id Makanan</label>
+                  <input type="text" name="id_makanan" class="form-control" id="idmakanan" aria-describedby="makanan">
                
-                  <label for="namamakanan">Id Kategori</label>
-                  <input type="text" name="nama_makanan" class="form-control" id="namamakanan" placeholder="Nama Makanan">
-
-                  <label for="namamakanan">Nama Produk</label>
+                  <label for="namamakanan">Nama Makanan</label>
                   <input type="text" name="nama_makanan" class="form-control" id="namamakanan" placeholder="Nama Makanan">
            
+                
+                  <label for="harga">Harga Makanan</label>
+                  <input type="text" name="harga_makanan" class="form-control" id="harga" placeholder="Harga Makanan"><br>
                   <label>Pilih gambar</label><br>
                   <input type="file" name="ambilgambar" value="Pilih gambar" required oninvalid="this.setCustomValidity('Silahkan pilih gambar terlebih dahulu')">
-              
+                  <label for="deskripsi">Deskripsi</label><br>
+                  <textarea name="deskripsi"></textarea>
                 </div>
                 <button type="submit" name="submit" class="btn btn-primary">Submit</button>
               </form>
