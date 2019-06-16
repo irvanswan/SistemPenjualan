@@ -18,7 +18,7 @@
         </div>
         </li>
            <li class="nav-item">
-          <a class="nav-link" href="<?php echo base_url('controler/home') ?>">
+          <a class="nav-link" href="<?php echo base_url('Admin/Grafik') ?>">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Grafik Produksi</span>
           </a>
