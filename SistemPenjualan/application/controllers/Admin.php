@@ -88,7 +88,15 @@ class Admin extends CI_Controller {
 	}
 
 	function form_produk_tani(){
-		$this->load->view('admin/input_makanan');
+		$this->load->view('admin/input_produk_tani');
+	}
+
+		function form_anggota(){
+		$this->load->view('admin/anggota');
+	}
+
+		function form_kegiatan(){
+		$this->load->view('admin/kegiatan');
 	}
 	
 }

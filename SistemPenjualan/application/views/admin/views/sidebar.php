@@ -13,8 +13,8 @@
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
             <a class="dropdown-item" href="<?php echo base_url('Admin/form_produk_tani') ?>"><i class="fas fa-utensils"></i>&nbsp;Produk Tani</a>
             <a class="dropdown-item" href="<?php echo base_url('controler/form_makanan') ?>"><i class="fas fa-utensils"></i>&nbsp;Produk Olah</a>
-            <a class="dropdown-item" href="<?php echo base_url('Admin/anggota') ?>"><i class="fas fa-user-circle"></i>&nbsp;Anggota</a>
-            <a class="dropdown-item" href="#"><i class="fas fa-newspaper"></i>&nbsp; Input Kegiatan</a>
+            <a class="dropdown-item" href="<?php echo base_url('Admin/form_anggota') ?>"><i class="fas fa-user-circle"></i>&nbsp;Anggota</a>
+            <a class="dropdown-item" href="<?php echo base_url('Admin/form_kegiatan') ?>"><i class="fas fa-newspaper"></i>&nbsp; Input Kegiatan</a>
         </div>
         </li>
            <li class="nav-item">
