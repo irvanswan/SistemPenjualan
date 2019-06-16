@@ -23,7 +23,7 @@ $user=$this->session->userdata('username');
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="<?php echo base_url('Admin/home') ?>">Dashboard</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Grafik</li>
+              <li class="breadcrumb-item active" aria-current="page">Tabel Anggota</li>
             </ol>
           </nav>
 

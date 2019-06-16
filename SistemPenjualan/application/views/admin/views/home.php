@@ -18,14 +18,15 @@ $user=$this->session->userdata('username');
 
         <div class="container-fluid">
 
-          <!-- Body Konten -->
+         <!-- Body Konten -->
 
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="<?php echo base_url('Admin/home') ?>">Dashboard</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Grafik</li>
+              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
             </ol>
           </nav>
+
+          <img src="<?php echo base_url('assets/img/admin/Dashboard.jpg')?>">
 
          <!-- Akhir dari Body Konten -->
 

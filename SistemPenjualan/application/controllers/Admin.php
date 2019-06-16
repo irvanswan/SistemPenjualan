@@ -30,6 +30,29 @@ class Admin extends CI_Controller {
 	}
 
 	//--------------------------------------------------------------//
+
+	public function home(){
+
+		if($this->session->userdata('status') == "login"){
+			$this->load->view('admin/views/home');
+		}else{
+		$this->load->view('admin/login');
+		}
+	}
+
+	//--------------------------------------------------------------//
+
+	public function anggota(){
+
+		if($this->session->userdata('status') == "login"){
+			$this->load->view('admin/views/anggota');
+		}else{
+		$this->load->view('admin/login');
+		}
+	}
+
+	//--------------------------------------------------------------//
+
 	//Fungsi login pada form login
 	function aksi_login(){
 		$username = $this->input->post('username');
