@@ -6,6 +6,7 @@ class Admin extends CI_Controller {
 	public function __construct(){
 		parent::__construct();
 		$this->load->model("user");
+		$this->load->model("mProduk");
 	}
 
 	//---------------------------------------------------------------//
@@ -30,29 +31,6 @@ class Admin extends CI_Controller {
 	}
 
 	//--------------------------------------------------------------//
-
-	public function home(){
-
-		if($this->session->userdata('status') == "login"){
-			$this->load->view('admin/views/home');
-		}else{
-		$this->load->view('admin/login');
-		}
-	}
-
-	//--------------------------------------------------------------//
-
-	public function anggota(){
-
-		if($this->session->userdata('status') == "login"){
-			$this->load->view('admin/views/anggota');
-		}else{
-		$this->load->view('admin/login');
-		}
-	}
-
-	//--------------------------------------------------------------//
-
 	//Fungsi login pada form login
 	function aksi_login(){
 		$username = $this->input->post('username');
@@ -88,16 +66,74 @@ class Admin extends CI_Controller {
 	}
 
 	function form_produk_tani(){
-		$this->load->view('admin/input_produk_tani');
+		if($this->session->userdata('status') == "login"){
+				$this->load->view('admin/input_produk_tani');
+			}else{
+			$this->load->view('admin/login');
+		}
+		
+	}
+	function form_produk_olah(){
+		if($this->session->userdata('status') == "login"){
+				$this->load->view('admin/input_produk_olah');
+			}else{
+			$this->load->view('admin/login');
+		}
+		
+	}
+	function form_anggota(){
+		if($this->session->userdata('status') == "login"){
+					$this->load->view('admin/input_anggota');
+			}else{
+			$this->load->view('admin/login');
+		}
+	
 	}
 
-		function form_anggota(){
-		$this->load->view('admin/anggota');
+	function tabel_produktani(){
+		if($this->session->userdata('status') == "login"){
+			$data=array(
+				'id_kategori'=>1
+			);
+					$dataproduk['produk']=$this->mProduk->tampilprodukId($data)->result();
+					$this->load->view('admin/tabelproduktani',$dataproduk);
+					
+			}else{
+			$this->load->view('admin/login');
+		}
+	
 	}
 
-		function form_kegiatan(){
-		$this->load->view('admin/kegiatan');
+
+	function form_input_tani(){
+		$id_produk=$this->input->post('id_produk');
+		$nm_produk=$this->input->post('nama_produk');
+
+		$data=array(
+			'id_produk'=>$id_produk,
+			'id_kategori'=>1,
+			'nm_produk'=>$nm_produk
+		);
+		$this->mProduk->insert($data);
+		echo '<script>alert("Data berhasil di inputkan");</script>';
+		$this->form_produk_tani();
 	}
+
+	function form_input_olah(){
+		$id_produk=$this->input->post('id_produk');
+		$nm_produk=$this->input->post('nama_produk');
+
+		$data=array(
+			'id_produk'=>$id_produk,
+			'id_kategori'=>2,
+			'nm_produk'=>$nm_produk
+		);
+		$this->mProduk->insert($data);
+		echo '<script>alert("Data berhasil di inputkan")</script>';
+		$this->form_produk_olah();
+	}
+
+
 	
 }
 

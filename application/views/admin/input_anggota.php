@@ -27,32 +27,32 @@ $user=$this->session->userdata('username');
             <li class="breadcrumb-item">
               <a href="#">Dashboard</a>
             </li>
-            <li class="breadcrumb-item active">Input Makanan</li>
+            <li class="breadcrumb-item active">Input Anggota</li>
           </ol>
 
           <!-- Area Chart Example-->
           <div class="card mb-3 border-dark " style="width: 30rem;">
             <div class="card-header">
               <i class="fas fa-utensils"></i>
-              Input Makanan</div>
+              Input Anggota</div>
             <div class="card-body">
 
 
-              <form action="" method="post" enctype="multipart/form-data"><!--multipart/form-data berfungsi supaya file dapat diambil -->
+              <form action="<?= base_url('Admin/form_input_olah') ?>" method="post" enctype="multipart/form-data"><!--multipart/form-data berfungsi supaya file dapat diambil -->
                 <div class="form-group">
-                  <label for="idmakanan">Id Makanan</label>
-                  <input type="text" name="id_makanan" class="form-control" id="idmakanan" aria-describedby="makanan">
+                  <label for="idmakanan">Id Anggota</label>
+                  <input type="text" name="id_anggota" class="form-control" id="idmakanan" aria-describedby="makanan" placeholder="id produk">
                
-                  <label for="namamakanan">Nama Makanan</label>
-                  <input type="text" name="nama_makanan" class="form-control" id="namamakanan" placeholder="Nama Makanan">
-           
-                
-                  <label for="harga">Harga Makanan</label>
-                  <input type="text" name="harga_makanan" class="form-control" id="harga" placeholder="Harga Makanan"><br>
-                  <label>Pilih gambar</label><br>
-                  <input type="file" name="ambilgambar" value="Pilih gambar" required oninvalid="this.setCustomValidity('Silahkan pilih gambar terlebih dahulu')">
-                  <label for="deskripsi">Deskripsi</label><br>
-                  <textarea name="deskripsi"></textarea>
+                  <label for="namamakanan">Nama Anggota</label>
+                  <input type="text" name="nama_anggota" class="form-control" id="namamakanan" placeholder="Nama Makanan">
+
+                  <label for="wilayah">Desa</label>
+                  <input type="text" name="wilayah" class="form-control" id="wilayah" placeholder="Desa">
+
+                  <label for="desc">Deskripsi Jabatan</label>
+                  <input type="text" name="desc" class="form-control" id="desc" placeholder="Nama Makanan">
+                  <!--<label>Pilih gambar</label><br>
+                  <input type="file" name="ambilgambar" value="Pilih gambar" required oninvalid="this.setCustomValidity('Silahkan pilih gambar terlebih dahulu')">-->
                 </div>
                 <button type="submit" name="submit" class="btn btn-primary">Submit</button>
               </form>

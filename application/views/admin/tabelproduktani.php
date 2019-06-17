@@ -27,37 +27,35 @@ $user=$this->session->userdata('username');
             <li class="breadcrumb-item">
               <a href="#">Dashboard</a>
             </li>
-            <li class="breadcrumb-item active">Input Makanan</li>
+            <li class="breadcrumb-item active">Produk Tani</li>
           </ol>
 
           <!-- Area Chart Example-->
-          <div class="card mb-3 border-dark " style="width: 30rem;">
+          <div class="card mb-3 border-dark " style="width: 100%;">
             <div class="card-header">
               <i class="fas fa-utensils"></i>
-              Input Makanan</div>
-            <div class="card-body">
+              Produk Tani</div>
+            
 
+              <table class="table table-bordered table-striped table-hover">
+    <thead>
+      <tr>
+        <th width="5%">No</th>
+        <th>Makanan</th>     
+      </tr>
+    </thead>
+    <tbody>
+      <?php foreach($produk as $dt){?>
+      <tr>
+        <td><?php echo $dt->id_produk ?></td>
+        <td><?php echo $dt->nm_produk ?></td>
+      </tr>
+      <?php } ?>
 
-              <form action="" method="post" enctype="multipart/form-data"><!--multipart/form-data berfungsi supaya file dapat diambil -->
-                <div class="form-group">
-                  <label for="idmakanan">Id Makanan</label>
-                  <input type="text" name="id_makanan" class="form-control" id="idmakanan" aria-describedby="makanan">
-               
-                  <label for="namamakanan">Nama Makanan</label>
-                  <input type="text" name="nama_makanan" class="form-control" id="namamakanan" placeholder="Nama Makanan">
-           
-                
-                  <label for="harga">Harga Makanan</label>
-                  <input type="text" name="harga_makanan" class="form-control" id="harga" placeholder="Harga Makanan"><br>
-                  <label>Pilih gambar</label><br>
-                  <input type="file" name="ambilgambar" value="Pilih gambar" required oninvalid="this.setCustomValidity('Silahkan pilih gambar terlebih dahulu')">
-                  <label for="deskripsi">Deskripsi</label><br>
-                  <textarea name="deskripsi"></textarea>
-                </div>
-                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
-              </form>
+    </tbody>
+  </table>
 
-            </div>
+          
             <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
           </div>
          
