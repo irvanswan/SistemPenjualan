@@ -31,6 +31,28 @@ class Admin extends CI_Controller {
 	}
 
 	//--------------------------------------------------------------//
+
+	public function dashboard(){
+
+		if($this->session->userdata('status') == "login"){
+			$this->load->view('admin/views/home');
+		}else{
+		$this->load->view('admin/login');
+		}
+	}
+
+	//--------------------------------------------------------------//
+
+	public function anggota(){
+
+		if($this->session->userdata('status') == "login"){
+			$this->load->view('admin/tabelanggota');
+		}else{
+		$this->load->view('admin/login');
+		}
+	}
+
+	//--------------------------------------------------------------//
 	//Fungsi login pada form login
 	function aksi_login(){
 		$username = $this->input->post('username');
@@ -81,9 +103,19 @@ class Admin extends CI_Controller {
 		}
 		
 	}
+
 	function form_anggota(){
 		if($this->session->userdata('status') == "login"){
 					$this->load->view('admin/input_anggota');
+			}else{
+			$this->load->view('admin/login');
+		}
+	
+	}
+
+	function form_kegiatan(){
+		if($this->session->userdata('status') == "login"){
+					$this->load->view('admin/input_kegiatan');
 			}else{
 			$this->load->view('admin/login');
 		}
@@ -103,6 +135,21 @@ class Admin extends CI_Controller {
 		}
 	
 	}
+
+	function tabel_olahan(){
+		if($this->session->userdata('status') == "login"){
+			$data=array(
+				'id_kategori'=>2
+			);
+					$dataproduk['produk']=$this->mProduk->tampilprodukId($data)->result();
+					$this->load->view('admin/tabelprodukolahan',$dataproduk);
+					
+			}else{
+			$this->load->view('admin/login');
+		}
+	
+	}
+
 
 
 	function form_input_tani(){
