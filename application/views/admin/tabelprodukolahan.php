@@ -27,36 +27,30 @@ $user=$this->session->userdata('username');
             <li class="breadcrumb-item">
               <a href="#">Dashboard</a>
             </li>
-            <li class="breadcrumb-item active">Tabel Anggota</li>
+            <li class="breadcrumb-item active">Produk Olahan</li>
           </ol>
 
           <!-- Area Chart Example-->
           <div class="card mb-3 border-dark " style="width: 100%;">
             <div class="card-header">
-              <i class="fas fa-chart-area"></i>
-              Tabel Anggota</div>
+              <i class="fas fa-utensils"></i>
+              Produk Olahan</div>
             
 
               <table class="table table-bordered table-striped table-hover">
     <thead>
       <tr>
-        <th width="5%">No</th>
-        <th>Username</th>     
+        <th width="10%">Id Produk</th>
+        <th>Nama Produk Olahan</th>     
       </tr>
     </thead>
     <tbody>
+      <?php foreach($produk as $dt){?>
       <tr>
-        <td>1</td>
-        <td>Admin1</td>
+        <td><?php echo $dt->id_produk ?></td>
+        <td><?php echo $dt->nm_produk ?></td>
       </tr>
-      <tr>
-        <td>2</td>
-        <td>Admin2</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Chusnul12</td>
-      </tr>
+      <?php } ?>
 
     </tbody>
   </table>
