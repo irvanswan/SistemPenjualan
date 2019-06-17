@@ -153,7 +153,7 @@
                   <h4 class="subheading">Berdirinya Organisasi</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  <p class="text-muted">Organisasi ini berdiri dari tahun 2009 sampai 2020</p>
                 </div>
               </div>
             </li>
