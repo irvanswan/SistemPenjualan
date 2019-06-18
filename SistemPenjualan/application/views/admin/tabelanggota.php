@@ -34,30 +34,25 @@ $user=$this->session->userdata('username');
           <div class="card mb-3 border-dark " style="width: 100%;">
             <div class="card-header">
               <i class="fas fa-chart-area"></i>
-              Tabel Anggota</div>
+              Daftar Anggota</div>
             
 
               <table class="table table-bordered table-striped table-hover">
     <thead>
       <tr>
         <th width="5%">No</th>
-        <th>Username</th>     
+        <th>Id Anggota</th>
+        <th>Nama</th>
+        <th>Wilayah</th>
+        <th>Deskripsi</th>     
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>1</td>
-        <td>Admin1</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Admin2</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Chusnul12</td>
-      </tr>
 
+      <tr>
+
+        
+      </tr>
     </tbody>
   </table>
 

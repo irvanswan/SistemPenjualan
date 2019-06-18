@@ -40,8 +40,8 @@ $user=$this->session->userdata('username');
               <table class="table table-bordered table-striped table-hover">
     <thead>
       <tr>
-        <th width="5%">No</th>
-        <th>Makanan</th>     
+        <th width="10%">Id Produk</th>
+        <th>Nama Produk Olahan</th>     
       </tr>
     </thead>
     <tbody>
