@@ -7,6 +7,7 @@ class Admin extends CI_Controller {
 		parent::__construct();
 		$this->load->model("user");
 		$this->load->model("mProduk");
+		$this->load->model("mGrafik");
 	}
 
 	//---------------------------------------------------------------//
@@ -179,7 +180,6 @@ class Admin extends CI_Controller {
 		echo '<script>alert("Data berhasil di inputkan")</script>';
 		$this->form_produk_olah();
 	}
-
 
 	
 }
