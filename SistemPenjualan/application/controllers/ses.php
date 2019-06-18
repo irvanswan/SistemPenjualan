@@ -11,6 +11,6 @@ class ses extends CI_Controller{
 }
  
 	function index(){
-		$this->load->view('admin/index');
+		$this->load->view('admin/views/home');
 	}
 }
