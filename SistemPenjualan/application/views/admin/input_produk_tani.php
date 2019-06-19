@@ -16,11 +16,6 @@
 
         <div class="container-fluid">
 
-          <!-- Breadcrumbs-->
-          
-
-          <!-- Icon Cards-->
-           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
               <a href="#">Dashboard</a>
@@ -71,7 +66,8 @@
       <!-- /.content-wrapper -->
 
     </div>
-    <!-- /#wrapper -->
+    
+    
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">

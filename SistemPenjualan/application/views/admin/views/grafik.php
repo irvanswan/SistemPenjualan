@@ -18,16 +18,62 @@ $user=$this->session->userdata('username');
 
         <div class="container-fluid">
 
-          <!-- Body Konten -->
+          <!-- Breadcrumbs-->
+          
 
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="<?php echo base_url('Admin/home') ?>">Dashboard</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Grafik</li>
-            </ol>
-          </nav>
+          <!-- Icon Cards-->
+           <!-- Breadcrumbs-->
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="#">Dashboard</a>
+            </li>
+            <li class="breadcrumb-item active">Produk Olahan</li>
+          </ol>
 
-         <!-- Akhir dari Body Konten -->
+          <!-- Area Chart Example-->
+          <div class="card mb-3 border-dark " style="width: 100%;">
+            <div class="card-header">
+              <i class="fas fa-utensils"></i>
+              Produk Olahan</div>
+            
+
+              <table class="table table-bordered table-striped table-hover">
+    <thead>
+      <tr>
+        <th width="10%">No</th>
+        <th>Id Produk</th>
+        <th>Nama Produk Olahan</th>
+        <th>Tanggal Produksi</th>
+        <th>Bahan</th> 
+        <th>Jumlah Bahan</th>
+        <th>Harga Bahan</th>
+        <th>Total Biaya</th>
+      </tr>
+    </thead>
+    <tbody>
+      <?php 
+      $no=1;
+      foreach($biaya as $by){?>
+      <tr>
+        <td><?php echo $no++; ?></td>
+        <td><?php echo $by->id_history ?></td>
+        <td><?php echo $by->id_produk ?></td>
+        <td><?php echo $by->tgl_produksi ?></td>
+        <td><?php echo $by->bahan ?></td>
+        <td><?php echo $by->jml_bahan ?></td>
+        <td><?php echo $by->harga_bahan ?></td>
+        <td><?php echo $by->total_biaya ?></td>
+      </tr>
+      <?php } ?>
+    </tbody>
+  </table>
+
+          
+            <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+          </div>
+         
+
+        <!-- /.container-fluid -->
 
         <!-- Sticky Footer -->
         <footer class="sticky-footer">
@@ -52,6 +98,7 @@ $user=$this->session->userdata('username');
     <!-- Logout Modal-->
     <?php $this->load->view('admin/modals/modallogout')?>
 
+
     <!-- Bootstrap core JavaScript-->
     <script src="<?php echo base_url('assets/admin/vendor/jquery/jquery.min.js') ?>"></script>
     <script src="<?php echo base_url('assets/admin/vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
@@ -74,3 +121,9 @@ $user=$this->session->userdata('username');
   </body>
 
 </html>
+
+
+         
+
+        <!-- Sticky Footer -->
+

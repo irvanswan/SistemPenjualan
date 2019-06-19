@@ -8,6 +8,7 @@ class Admin extends CI_Controller {
 		$this->load->model("user");
 		$this->load->model("mProduk");
 		$this->load->model("mGrafik");
+		$this->load->model("mBiaya");
 	}
 
 	//---------------------------------------------------------------//
@@ -22,13 +23,16 @@ class Admin extends CI_Controller {
 
 	//--------------------------------------------------------------//
 
-	public function grafik(){
-
+	function grafik(){
 		if($this->session->userdata('status') == "login"){
-			$this->load->view('admin/views/grafik');
-		}else{
-		$this->load->view('admin/login');
+
+					$databiaya['biaya']=$this->mBiaya->ambildata()->result();
+					$this->load->view('admin/views/grafik',$databiaya);
+					
+			}else{
+			$this->load->view('admin/login');
 		}
+	
 	}
 
 	//--------------------------------------------------------------//
@@ -150,6 +154,8 @@ class Admin extends CI_Controller {
 		}
 	
 	}
+
+
 
 
 
